@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Asif and Salma Skin Care - Visit us at DHA, Karachi or reach us via phone/WhatsApp at 0345-0731223.">
+    <title>Contact Us - Asif and Salma Skin Care</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fab fa-apple apple-logo-bg"></i>
+                <span class="logo-text">Asif and Salma Skin Care</span>
+            </a>
+            <div class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="doctors.html">Our Doctors</a></li>
+                <li><a href="treatments.html">Treatments</a></li>
+                <li><a href="appointment.html">Book Appointment</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero" style="min-height: 40vh; padding-top: 120px;">
+        <div class="container text-center">
+            <h1>Contact Us</h1>
+            <p class="hero-description" style="max-width: 700px; margin: 1.5rem auto 0;">
+                We're here to help! Reach out to us for appointments, inquiries, or any questions
+                about our services.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-info">
+                <!-- Address -->
+                <div class="card card-glass">
+                    <div class="contact-icon" style="margin: 0 auto 1rem;">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="text-center">
+                        <h3 style="margin-bottom: 1rem;">Our Location</h3>
+                        <p style="color: var(--text-gray); font-size: 1.1rem; line-height: 1.8;">
+                            <strong>Asif and Salma Skin Care</strong><br>
+                            DHA, Karachi<br>
+                            Pakistan
+                        </p>
+                        <a href="https://maps.google.com/?q=DHA+Karachi" target="_blank" class="btn btn-outline"
+                            style="margin-top: 1rem;">
+                            <i class="fas fa-directions"></i> Get Directions
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Phone & WhatsApp -->
+                <div class="card card-glass">
+                    <div class="contact-icon" style="margin: 0 auto 1rem;">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="text-center">
+                        <h3 style="margin-bottom: 1rem;">Phone & WhatsApp</h3>
+                        <p style="color: var(--text-gray); font-size: 1.1rem; margin-bottom: 0.5rem;">
+                            <strong>0345-0731223</strong>
+                        </p>
+                        <p style="color: var(--text-gray); font-size: 0.95rem; margin-bottom: 1.5rem;">
+                            Call us or send a message on WhatsApp
+                        </p>
+                        <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+                            <a href="tel:+923450731223" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://wa.me/923450731223" target="_blank" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Business Hours -->
+                <div class="card card-glass">
+                    <div class="contact-icon" style="margin: 0 auto 1rem;">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="text-center">
+                        <h3 style="margin-bottom: 1rem;">Business Hours</h3>
+                        <div style="color: var(--text-gray); font-size: 1.05rem; line-height: 2;">
+                            <p><strong>Monday - Saturday</strong></p>
+                            <p style="font-size: 1.2rem; color: var(--primary-blue); font-weight: 600;">
+                                11:00 AM - 10:00 PM
+                            </p>
+                            <p style="margin-top: 1rem;">
+                                <strong style="color: var(--text-dark);">Sunday:</strong> Closed
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section" style="background: var(--gradient-soft);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Send Us a Message</h2>
+                <p class="section-subtitle">
+                    Have a question or need more information? Fill out the form below and
+                    we'll get back to you as soon as possible.
+                </p>
+            </div>
+
+            <div style="max-width: 700px; margin: 0 auto;">
+                <div class="card">
+                    <form id="contactForm">
+                        <!-- Name -->
+                        <div class="form-group">
+                            <label for="contactName" class="form-label">
+                                <i class="fas fa-user"></i> Your Name *
+                            </label>
+                            <input type="text" id="contactName" name="contactName" class="form-input"
+                                placeholder="Enter your full name" required>
+                        </div>
+
+                        <!-- Email and Phone -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactEmail" class="form-label">
+                                    <i class="fas fa-envelope"></i> Email Address *
+                                </label>
+                                <input type="email" id="contactEmail" name="contactEmail" class="form-input"
+                                    placeholder="your.email@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contactPhone" class="form-label">
+                                    <i class="fas fa-phone"></i> Phone Number *
+                                </label>
+                                <input type="tel" id="contactPhone" name="contactPhone" class="form-input"
+                                    placeholder="03XX-XXXXXXX" required>
+                            </div>
+                        </div>
+
+                        <!-- Subject -->
+                        <div class="form-group">
+                            <label for="contactSubject" class="form-label">
+                                <i class="fas fa-tag"></i> Subject *
+                            </label>
+                            <select id="contactSubject" name="contactSubject" class="form-select" required>
+                                <option value="">Choose a subject...</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="Appointment Request">Appointment Request</option>
+                                <option value="Treatment Information">Treatment Information</option>
+                                <option value="Pricing Question">Pricing Question</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="form-group">
+                            <label for="contactMessage" class="form-label">
+                                <i class="fas fa-comment"></i> Your Message *
+                            </label>
+                            <textarea id="contactMessage" name="contactMessage" class="form-textarea"
+                                placeholder="Write your message here..." required style="min-height: 150px;"></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary"
+                            style="width: 100%; font-size: 1.1rem; padding: 1.1rem;">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+
+                    <div id="contactFormMessage" style="margin-top: 1.5rem; text-align: center; display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Chat Section -->
+    <section class="section">
+        <div class="container text-center">
+            <h2 class="mb-3">Prefer Instant Communication?</h2>
+            <p class="section-subtitle mb-4">
+                Connect with us on WhatsApp for immediate assistance and quick responses
+                to your queries.
+            </p>
+            <a href="https://wa.me/923450731223?text=Hi%2C%20I%20have%20a%20question%20about%20Asif%20and%20Salma%20Skin%20Care"
+                class="btn btn-whatsapp" style="font-size: 1.2rem; padding: 1.2rem 3rem;" target="_blank">
+                <i class="fab fa-whatsapp"></i> Chat on WhatsApp - 0345-0731223
+            </a>
+        </div>
+    </section>
+
+    <!-- Map Section (Placeholder) -->
+    <section class="section" style="background: var(--gradient-soft); padding: 3rem 0;">
+        <div class="container">
+            <div class="card" style="padding: 0; overflow: hidden;">
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.5!2d67.0!3d24.85!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDUxJzAwLjAiTiA2N8KwMDAnMDAuMCJF!5e0!3m2!1sen!2s!4v1234567890"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Info -->
+    <section class="section">
+        <div class="container">
+            <div class="info-box">
+                <h4><i class="fas fa-info-circle"></i> Visit Information</h4>
+                <p><strong>Address:</strong> Asif and Salma Skin Care, DHA, Karachi, Pakistan</p>
+                <p><strong>Contact:</strong> 0345-0731223 (Phone & WhatsApp)</p>
+                <p><strong>Hours:</strong> Mon-Sat: 11 AM - 10 PM | Sunday: Closed</p>
+                <p><strong>Parking:</strong> Available at premises</p>
+                <p><strong>Note:</strong> Walk-ins welcome, but appointments are recommended</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Asif and Salma Skin Care</h3>
+                <p>Advanced Skin Care & Aesthetic Treatments</p>
+                <p style="margin-top: 1rem;">
+                    Your trusted partner for all dermatology and aesthetic needs.
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="doctors.html">Our Doctors</a>
+                <a href="treatments.html">Treatments & Prices</a>
+                <a href="appointment.html">Book Appointment</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> DHA, Karachi</p>
+                <p><i class="fas fa-phone"></i> 0345-0731223</p>
+                <p><i class="fab fa-whatsapp"></i> WhatsApp: 0345-0731223</p>
+                <p><i class="fas fa-clock"></i> Mon-Sat: 11 AM - 10 PM</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Get In Touch</h3>
+                <p>Phone: 0345-0731223</p>
+                <p>WhatsApp: 0345-0731223</p>
+                <p>Location: DHA, Karachi</p>
+                <p>Hours: Mon-Sat, 11 AM - 10 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Asif and Salma Skin Care. All rights reserved. | Advanced Skin Care & Aesthetic Treatments
+            </p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/923450731223?text=Hi%2C%20I%20would%20like%20to%20contact%20Asif%20and%20Salma%20Skin%20Care"
+        class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
